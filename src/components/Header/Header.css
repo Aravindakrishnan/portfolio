@@ -1,0 +1,85 @@
+.header {
+    position: relative;
+    background: var(--dark--background);
+    padding: 2.4rem;
+    margin: 1.2rem;
+    border-radius: 0.5rem;
+}
+
+.header__title {
+    color: var(--headline);
+    font-size: 3.2rem;
+}
+
+.header__desc {
+    color: var(--paragraph);
+}
+
+.header__icon {
+    position: absolute;
+    padding: 0.8rem;
+    background: var(--bg-background);
+    top: 12px;
+    right: 12px;
+    display: block;
+    border-radius: 0.4rem;
+    transition: 0.4s;
+
+}
+
+.heart {
+    animation: animate_heart 1s linear infinite;
+}
+
+/* .header__icon::after {
+    content: "  I love Coding!";
+    color: var(--paragraph);
+}
+
+.header:hover .header__icon {
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} */
+
+
+@media screen and (max-width:600px) {
+
+    .header {
+        margin: 1rem 0.5rem;
+    }
+
+    .header__icon {
+        width: 100%;
+        bottom: -44px;
+        left: 0;
+        top: auto;
+    }
+
+    .header__icon::after {
+        content: "  I love Coding!";
+        color: var(--paragraph);
+    }
+
+    /* .header:hover .header__icon {
+        top: 0;
+        left: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    } */
+
+
+}
+
+@keyframes animate_heart {
+    from {
+        filter: hue-rotate(0deg);
+    }
+
+    to {
+        filter: hue-rotate(360deg);
+    }
+}

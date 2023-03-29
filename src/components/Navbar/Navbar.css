@@ -1,0 +1,9 @@
+.navbar {
+    padding: 1.4rem;
+    background: var(--bg-background);
+    color: var(--headline);
+}
+
+.nav__item {
+    list-style-type: none;
+}

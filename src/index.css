@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Space Mono', monospace;
+}
+
+:root {
+  --dark--background: #000;
+  --background: #16161a;
+  --headline: #fffffe;
+  --paragraph: #94a1b2;
+  --button: #7f5af0;
+  --button-txt: #fffffe;
+  --stroke: #010101;
+  --main: #fffffe;
+  --hightlight: #7f5af0;
+  --secondary: #72757e;
+  --teritary: #2cb67d;
+  --bg-background: #242629;
+}
+
+body {
+  background: var(--background);
+}
