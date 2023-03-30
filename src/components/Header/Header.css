@@ -12,7 +12,7 @@
 }
 
 .header__desc {
-    color: var(--paragraph);
+    color: var(--hacker-color);
 }
 
 .header__icon {
