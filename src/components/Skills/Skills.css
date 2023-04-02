@@ -21,12 +21,62 @@
 }
 
 @media screen and (max-width:600px) {
-    .container {
-        margin: 3rem 0;
-    }
-
     .skills {
         display: grid;
         grid-template-columns: repeat(5, 1fr);
     }
+}
+
+.fa-html5:hover {
+    color: #E44D26;
+    transform: scale(0.96);
+    transition: transform 0.4s;
+}
+
+.fa-css3-alt:hover {
+    color: #1572B6;
+    transform: scale(0.96);
+    transition: transform 0.4s;
+}
+
+.fa-square-js:hover {
+    color: #F0DB4F;
+    transform: scale(0.96);
+    transition: transform 0.4s;
+}
+
+.fa-react:hover {
+    color: #61DAFB;
+    transform: scale(0.96);
+    transition: transform 0.4s;
+}
+
+.fa-node:hover {
+    color: #68A063;
+    transform: scale(0.96);
+    transition: transform 0.4s;
+}
+
+.fa-python:hover {
+    color: #3776AB;
+    transform: scale(0.96);
+    transition: transform 0.4s;
+}
+
+.fa-figma:hover {
+    color: #F24E1E;
+    transform: scale(0.96);
+    transition: transform 0.4s;
+}
+
+.fa-aws:hover {
+    color: #FF9900;
+    transform: scale(0.96);
+    transition: transform 0.4s;
+}
+
+.fa-github:hover {
+    color: var(--paragraph);
+    transform: scale(0.96);
+    transition: transform 0.4s;
 }

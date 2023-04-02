@@ -2,8 +2,64 @@
     padding: 1.4rem;
     background: var(--bg-background);
     color: var(--headline);
+    display: flex;
+    justify-content: space-between;
 }
 
 .nav__item {
     list-style-type: none;
+}
+
+
+.navbar__nav {
+    display: flex;
+    align-items: center;
+}
+
+.nav__division {
+    display: flex;
+}
+
+.nav__item,
+.icon__btn {
+    margin-left: 1.4rem;
+}
+
+.nav__link,
+.icon__btn {
+    text-decoration: none;
+    color: var(--paragraph);
+}
+
+.icon__btn {
+    display: none;
+}
+
+
+@media screen and (max-width:600px) {
+    body {
+        position: relative;
+    }
+
+    .icon__btn {
+        display: block;
+    }
+
+    .nav__item {
+        margin-top: 1.4rem;
+    }
+
+    .nav__division {
+        height: 100vh;
+        position: absolute;
+        width: 250px;
+        background: var(--background);
+        z-index: 100;
+        left: -100rem;
+        bottom: 0;
+        top: 0;
+        flex-direction: column;
+        align-items: center;
+
+    }
 }

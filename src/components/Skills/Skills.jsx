@@ -1,44 +1,7 @@
 import "./Skills.css";
 export default function Skills() {
 
-    const skills = [
-        {
-            id: 1,
-            name: "html5"
-        },
-        {
-            id: 2,
-            name: "css3-alt"
-        },
-        {
-            id: 3,
-            name: "square-js"
-        },
-        {
-            id: 4,
-            name: "react fa-spin"
-        },
-        {
-            id: 5,
-            name: "python"
-        },
-        {
-            id: 6,
-            name: "figma"
-        },
-        {
-            id: 7,
-            name: "aws"
-        },
-        {
-            id: 8,
-            name: "github"
-        },
-        {
-            id: 9,
-            name: "AZ"
-        }
-    ]
+    const skills = ["html5", "css3-alt", "square-js", "react", "node", "python", "figma", "aws", "github"]
 
     return (
         <div className="container">
@@ -46,9 +9,9 @@ export default function Skills() {
                 {
                     skills.map(skill => {
                         return (
-                            <div key={skill.id} className="skill">
+                            <div key={skill} className="skill">
                                 <div className="skill__chip">
-                                    <i className={"icon fa-brands fa-" + skill.name}></i>
+                                    <i className={"icon fa-brands fa-" + skill}></i>
                                 </div>
                             </div>
                         )

@@ -8,7 +8,7 @@
 }
 
 :root {
-  --dark--background: #000;
+  --dark-background: #000;
   --background: #16161a;
   --headline: #fffffe;
   --paragraph: #94a1b2;
@@ -21,8 +21,15 @@
   --teritary: #2cb67d;
   --bg-background: #242629;
   --hacker-color: #20C20E;
+  --dark-blue: #000080;
 }
 
 body {
   background: var(--background);
+}
+
+@media screen and (max-width:600px) {
+  .container {
+    margin-top: 2.5rem;
+  }
 }
