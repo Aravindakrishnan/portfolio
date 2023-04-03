@@ -28,49 +28,53 @@
 }
 
 .fa-html5:hover {
-    color: #E44D26;
+    color: #ff8d70;
     transform: scale(0.96);
     transition: transform 0.4s;
 }
 
 .fa-css3-alt:hover {
-    color: #1572B6;
+    color: #94d2ff;
     transform: scale(0.96);
     transition: transform 0.4s;
 }
 
 .fa-square-js:hover {
-    color: #F0DB4F;
+    color: #fff194;
     transform: scale(0.96);
     transition: transform 0.4s;
 }
 
+.fa-react {
+    animation: rotate-animate 1.2s linear infinite;
+}
+
 .fa-react:hover {
-    color: #61DAFB;
+    color: #acedff;
     transform: scale(0.96);
     transition: transform 0.4s;
 }
 
 .fa-node:hover {
-    color: #68A063;
+    color: #a2ff9a;
     transform: scale(0.96);
     transition: transform 0.4s;
 }
 
 .fa-python:hover {
-    color: #3776AB;
+    color: #b1dcff;
     transform: scale(0.96);
     transition: transform 0.4s;
 }
 
 .fa-figma:hover {
-    color: #F24E1E;
+    color: #ffac92;
     transform: scale(0.96);
     transition: transform 0.4s;
 }
 
 .fa-aws:hover {
-    color: #FF9900;
+    color: hsl(36, 100%, 77%);
     transform: scale(0.96);
     transition: transform 0.4s;
 }
@@ -79,4 +83,14 @@
     color: var(--paragraph);
     transform: scale(0.96);
     transition: transform 0.4s;
+}
+
+@keyframes rotate-animate {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
 }
