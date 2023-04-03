@@ -6,6 +6,11 @@
     justify-content: space-between;
 }
 
+.navbar__title {
+    color: var(--headline);
+    text-decoration: none;
+}
+
 .nav__item {
     list-style-type: none;
 }
