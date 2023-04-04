@@ -8,8 +8,8 @@
 }
 
 :root {
-  --dark-background: #000;
-  --background: #16161a;
+  --dark-background: #090808;
+  --background: #121213;
   --headline: #fffffe;
   --paragraph: #94a1b2;
   --button: #7f5af0;
@@ -19,7 +19,7 @@
   --highlight: #7f5af0;
   --secondary: #72757e;
   --teritary: #2cb67d;
-  --bg-background: #242629;
+  --bg-background: #171717;
   --hacker-color: #20C20E;
   --dark-blue: #000080;
 }
