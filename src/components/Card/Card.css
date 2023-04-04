@@ -1,7 +1,4 @@
-.card-container {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-}
+
 
 .card {
     /* width: 450px; */
@@ -50,7 +47,7 @@
     background: none;
 }
 
-@media screen and (max-width:600px) {
+/* @media screen and (max-width:600px) {
     .card-container {
         grid-template-columns: 1fr;
     }
@@ -60,4 +57,4 @@
     .card-container {
         grid-template-columns: 1fr 1fr;
     }
-}
+} */

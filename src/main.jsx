@@ -3,6 +3,7 @@ import ReactDOM from 'react-dom/client'
 import App from './App'
 import './index.css'
 
+
 // router
 import {
   createBrowserRouter,
@@ -10,17 +11,20 @@ import {
 } from "react-router-dom";
 
 // components
-import Navbar from './components/Navbar/Navbar'
-import Card from './components/Card/Card'
+import Navbar from './components/Navbar/Navbar';
+import Projects from "./components/Projects/Projects";
+import ErrorPage from "./components/ErrorPage/ErrorPage";
 
 const router = createBrowserRouter([
   {
     path: "/",
-    element: <App></App>
+    element: <App></App>,
+    // errorElement: ErrorPage
   },
   {
     path: "/projects",
-    element: <Card></Card>,
+    element: <Projects ></Projects>,
+    // errorElement: ErrorPage
   },
 ]);
 
