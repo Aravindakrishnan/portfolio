@@ -11,7 +11,7 @@ export default function Navbar() {
     return (
         <nav className="navbar">
             <div className="navbar__header">
-                <a className="navbar__title" href={`/`}><h3 >Aravinda~krishnan {expandClass}</h3></a>
+                <a className="navbar__title" href={`/`}><h3 >Aravinda~krishnan</h3></a>
             </div>
             <ul className={"navbar__nav"}>
                 <div className={"nav__division " + expandClass}>
