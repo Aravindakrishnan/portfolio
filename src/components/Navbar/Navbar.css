@@ -33,7 +33,7 @@
 .nav__link,
 .icon__btn {
     text-decoration: none;
-    color: var(--hacker-color);
+    color: var(--headline);
 }
 
 .icon__btn {
