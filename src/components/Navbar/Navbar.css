@@ -33,12 +33,21 @@
 .nav__link,
 .icon__btn {
     text-decoration: none;
-    color: var(--paragraph);
+    color: var(--hacker-color);
 }
 
 .icon__btn {
     display: none;
 }
+
+.icon__btn {
+    transition: 0.2s;
+}
+
+.icon__btn:active {
+    transform: scale(0.95);
+}
+
 
 
 @media screen and (max-width:600px) {
@@ -56,15 +65,26 @@
 
     .nav__division {
         height: 100vh;
-        position: absolute;
-        width: 250px;
+        width: 150px;
         background: var(--background);
-        z-index: 100;
-        left: -100rem;
-        bottom: 0;
-        top: 0;
         flex-direction: column;
         align-items: center;
-
+        transition: 0.4s;
     }
+
+    .nav__open {
+        position: absolute;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        z-index: 100;
+    }
+
+    .nav__close {
+        position: absolute;
+        left: -100rem;
+        top: 0;
+        bottom: 0;
+    }
+
 }
